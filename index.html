@@ -3,9 +3,99 @@
   <head>
     <meta charset="utf-8">
     <title>Assignment 01: Semantic Elements</title>
+    <style>
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+</style>
   </head>
   <body>
-    <h1>Assignment 01: Semantic Elements.</h1>
-    <p>These are the core building blocks for web development.</p>
+    <header class="all-browsers">
+      <h1>Assignment 01: Semantic Elements.</h1>
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+
+<main>
+  <aside>
+    <h4>Semantic Elements enhance: </h4>
+    <ul>
+      <li>accessibility</li>
+      <li>searchability</li>
+      <li>internationalization</li>
+      <li>interoperability</li>
+    </ul>
+  </aside>
+
+  <section>
+    <h2>Understanding Semantic Elements is important to web development.</h2>
+    <article class="browser">
+      <h3>The goal of Semantic Elements is to clearly describe their meaning to both the browser and developer.</h3>
+
+      <figure>
+        <img src="img_sem_elements.jpg" alt="Semantic Elements" style="width:15%">
+        <figcaption>Fig.1 - Semantic Elements.</figcaption>
+      </figure>
+
+      <details>
+        <summary><mark>Semantic Elements</mark></summary>
+        <p>Many web sites contain HTML code to indicate navigation, header, and footer.</p>
+      </details>
+
+        <aside>
+          <h5>Some examples include:</h5>
+          <ul>
+            <li>header</li>
+            <li>footer</li>
+            <li>nav</li>
+            <li>section</li>
+          </ul>
+        </aside>
+
+        <p> They work as labels for the tools being used on that section of the website. <b>They are an efficient way to keep code organized</b>.</p>
+      </article>
+
+    </section>
+</main>
+
+    <footer>
+      <address>
+        Author: <a href="tindalj@outlook.com">Jack Tindal</a>.<br> Made on <time datetime="2024-02-07 20:00">February 7, 2024</time>
+      </address>
+
+      <nav>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/jquery/">jQuery</a>
+  </nav>
+
+    </footer>
+
   </body>
 </html>
