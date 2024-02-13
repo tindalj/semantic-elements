@@ -1,0 +1,2 @@
+Semantic Elements 
+The goal for semantic elements is to clearly describe their meaning to both the browser and developer. They enhance accessibility, searchability, internationalization, and interoperability. They work as labels for the tools being used on that section of the website. Some examples include header, footer, nav, and section. They are an efficient way to keep code clear and organized. 
